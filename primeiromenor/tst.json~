@@ -1,0 +1,32 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "7 5 3 9 11 8\n3\n",
+      "output": "sem menores que 3\n"
+    },
+    {
+      "category": "public",
+      "input": "7 5 3 9 11 8\n4\n",
+      "output": "primeiro menor que 4: 3\n"
+    },
+    {
+      "category": "public",
+      "files": [
+        "public_tests.py"
+      ],
+      "type": "script",
+      "script": "python public_tests.py"
+    }
+  ],
+  "1ad551cf7f21b1f34100894e464d0600": {
+    "timestamp": "2016-04-05T16:53:21.528490",
+    "feedback": "",
+    "summary": "..............."
+  },
+  "filename": "public_tests.py",
+  "tst_files": [],
+  "activity_revision": "1.0.0",
+  "key": "10298A86000000",
+  "last_commit": "1ad551cf7f21b1f34100894e464d0600"
+}

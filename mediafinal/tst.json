@@ -1,0 +1,17 @@
+{
+  "b19af0cd466242f1e73d8e55d52d3041": {
+    "timestamp": "2016-03-01T13:41:55.208440",
+    "feedback": "",
+    "summary": ".."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "6.0\n5.0\n",
+      "output": "M\u00e9dia final: 5.6\n"
+    }
+  ],
+  "activity_revision": "1.0.0",
+  "key": "139A64AA000000",
+  "last_commit": "b19af0cd466242f1e73d8e55d52d3041"
+}

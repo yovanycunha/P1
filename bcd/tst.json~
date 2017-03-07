@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "11110101\nfim\n",
+      "name": "exemplo1",
+      "output": "BCD inv\u00e1lido.\n"
+    },
+    {
+      "category": "public",
+      "input": "1111\nfim\n",
+      "name": "exemplo2",
+      "output": "Tente novamente.\n"
+    }
+  ],
+  "ba5f7464e3bf4983c575030fefe335ac": {
+    "timestamp": "2016-03-22T16:37:04.940100",
+    "feedback": "",
+    "summary": "FFFFFFFFFFFF"
+  },
+  "9a07bfd1f3075b0470823cc03ed91d2a": {
+    "timestamp": "2016-03-22T16:23:05.813120",
+    "feedback": "",
+    "summary": "..y....FFyyF"
+  },
+  "d984ac1653a76913b1edb848f124f9ff": {
+    "timestamp": "2016-03-22T16:37:25.888720",
+    "feedback": "",
+    "summary": "..F.....F..F"
+  },
+  "dcb80f834d728e624447b3cd543f87ca": {
+    "timestamp": "2016-03-22T16:41:15.419300",
+    "feedback": "",
+    "summary": "............"
+  },
+  "activity_revision": "1.0.1",
+  "key": "119578DA000000",
+  "last_commit": "dcb80f834d728e624447b3cd543f87ca",
+  "2d8183800db77384e6ccece7c026bb47": {
+    "timestamp": "2016-03-22T16:31:21.200160",
+    "feedback": "",
+    "summary": "..F.....F..F"
+  }
+}

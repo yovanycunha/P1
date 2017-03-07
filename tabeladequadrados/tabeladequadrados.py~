@@ -1,0 +1,15 @@
+#coding: utf-8
+# Tabela de Quadrados
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+import math
+
+a =  int(raw_input())
+b =  int(raw_input())
+if a > b:
+print '---'
+for i in range(a,b+1):
+	if i % 3 == 0:
+		print i, i**2 , '*'
+	else:
+		print i, i**2
+

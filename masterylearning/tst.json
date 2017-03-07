@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "10.0\n7.0\n",
+      "output": "Mastery Learning\nC\u00e1lculo da nota na unidade\n\nNota? Nota? M\u00e9dia: 8.5 (aprovado)\nPenaliza\u00e7\u00e3o: 0.0\n\n===\nNotas v\u00e1lidas: 10.0 e 7.0\nM\u00e9dia parcial na unidade: 8.5\nPenaliza\u00e7\u00f5es: 0.0\nM\u00e9dia final na unidade: 8.5\n"
+    },
+    {
+      "category": "public",
+      "input": "4.0\n6.0\n3.0\n7.0\n",
+      "output": "Mastery Learning\nC\u00e1lculo da nota na unidade\n\nNota? Nota? M\u00e9dia: 5.0 (cursando)\nPenaliza\u00e7\u00e3o: 0.0\n\nNota? M\u00e9dia: 5.0 (cursando)\nPenaliza\u00e7\u00e3o: 0.5\n\nNota? M\u00e9dia: 6.5 (aprovado)\nPenaliza\u00e7\u00e3o: 1.0\n\n===\nNotas v\u00e1lidas: 7.0 e 6.0\nM\u00e9dia parcial na unidade: 6.5\nPenaliza\u00e7\u00f5es: 1.0\nM\u00e9dia final na unidade: 5.5\n"
+    }
+  ],
+  "be559529743e12cbf3e31f390a64d682": {
+    "timestamp": "2016-03-22T19:58:04.101880",
+    "feedback": "",
+    "summary": "FF"
+  },
+  "key": "17B0D74A000000",
+  "activity_revision": "1.0.0",
+  "c97d87c00a6033f82d18543ea3cc4c78": {
+    "timestamp": "2016-03-23T17:26:17.429620",
+    "feedback": "",
+    "summary": ".."
+  },
+  "last_commit": "c97d87c00a6033f82d18543ea3cc4c78"
+}

@@ -1,0 +1,22 @@
+{
+  "297e852ff0892af40ae7d1c74a7859c8": {
+    "timestamp": "2016-03-22T13:34:24.575250",
+    "feedback": "",
+    "summary": "....."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "Wilkerson 100.00\n1 50.00\n2 20.00\n3\n",
+      "output": "Saldo de R$ 70.00 na conta de Wilkerson\n"
+    },
+    {
+      "category": "public",
+      "input": "Matheus 20.00\n1 100.00\n3\n",
+      "output": "Saldo de R$ -80.00 na conta de Matheus\n"
+    }
+  ],
+  "activity_revision": "1.0.1",
+  "key": "16D77E7A000000",
+  "last_commit": "297e852ff0892af40ae7d1c74a7859c8"
+}

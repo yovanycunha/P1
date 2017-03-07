@@ -1,0 +1,32 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "5\n2\n3\n",
+      "output": "plof\n"
+    },
+    {
+      "category": "public",
+      "input": "4\n4\n4\n",
+      "output": "plif\n"
+    }
+  ],
+  "03c62fd2d0355b1cab66f680caf2d639": {
+    "timestamp": "2016-03-03T16:59:11.780000",
+    "feedback": "",
+    "summary": "...FF"
+  },
+  "activity_revision": "1.1.0",
+  "key": "16BE03BA000000",
+  "last_commit": "03c62fd2d0355b1cab66f680caf2d639",
+  "8ad70fd7c6ace18faa60c1a7e1883bec": {
+    "timestamp": "2016-03-03T16:57:33.574070",
+    "feedback": "",
+    "summary": "...FF"
+  },
+  "33e4fc4d477352184855a1d621208900": {
+    "timestamp": "2016-03-03T16:58:32.488850",
+    "feedback": "",
+    "summary": "...FF"
+  }
+}

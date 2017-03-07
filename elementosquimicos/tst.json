@@ -1,0 +1,73 @@
+{
+  "key": "119CF77A000000",
+  "tests": [
+    {
+      "category": "public",
+      "input": "C O 2\nH 2 O\nC 12 H 22 O 11\nfim\n",
+      "name": "exemplo 1",
+      "output": "44\n18\n342\n"
+    }
+  ],
+  "448aacb10126037139c7cca47dc190ee": {
+    "timestamp": "2016-04-20T13:54:45.005360",
+    "feedback": "",
+    "summary": ".....F"
+  },
+  "56cdaa59a01a68b65012e208c037f942": {
+    "timestamp": "2016-04-20T14:36:17.762360",
+    "feedback": "",
+    "summary": ".....F"
+  },
+  "f35971644c564313aec3997d1d0238af": {
+    "timestamp": "2016-04-20T13:55:36.879750",
+    "feedback": "",
+    "summary": "..e..e"
+  },
+  "6a0db2688fa27c6bf8f53ff7085af90d": {
+    "timestamp": "2016-04-20T13:41:45.406390",
+    "feedback": "",
+    "summary": "..F.FF"
+  },
+  "fed8de2762fff6dd5c35457b490af36e": {
+    "timestamp": "2016-04-20T14:34:03.992960",
+    "feedback": "",
+    "summary": "F.FFFF"
+  },
+  "fa292e5f942602f7e31257324516f3dd": {
+    "timestamp": "2016-04-20T14:19:55.257050",
+    "feedback": "",
+    "summary": ".....F"
+  },
+  "bb15aea32063bb8f0c1514633a04cf2e": {
+    "timestamp": "2016-04-20T13:47:34.283410",
+    "feedback": "",
+    "summary": "..F.Fe"
+  },
+  "b6a6e032ebdb824a386fe2dfd94d6aa5": {
+    "timestamp": "2016-04-20T13:48:24.453330",
+    "feedback": "",
+    "summary": "..F.FF"
+  },
+  "activity_revision": "1.0.0",
+  "b49dcab05918ba21e51e20441c13be74": {
+    "timestamp": "2016-04-20T13:59:17.641680",
+    "feedback": "",
+    "summary": ".....F"
+  },
+  "326aa1e8a58f70eb7bd9c49d1cdb614f": {
+    "timestamp": "2016-04-20T13:58:28.542200",
+    "feedback": "",
+    "summary": "F.FFxF"
+  },
+  "last_commit": "fafdeba376d37623817cd0cbad6836a8",
+  "c23a49334bacb37b4102ddc03e41173f": {
+    "timestamp": "2016-04-20T13:48:09.074990",
+    "feedback": "",
+    "summary": "..F.Fe"
+  },
+  "fafdeba376d37623817cd0cbad6836a8": {
+    "timestamp": "2016-04-20T14:40:27.412680",
+    "feedback": "",
+    "summary": "......"
+  }
+}

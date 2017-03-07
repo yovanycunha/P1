@@ -1,0 +1,32 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "20\n",
+      "output": "1\n2\n4\n8\n"
+    },
+    {
+      "category": "public",
+      "input": "2\n",
+      "output": "1\n"
+    },
+    {
+      "category": "public",
+      "input": "10\n",
+      "output": "1\n2\n4\n"
+    }
+  ],
+  "1ff4a77f87e5e8503dd0c5162c2c053b": {
+    "timestamp": "2016-03-22T15:26:08.321160",
+    "feedback": "",
+    "summary": "....FF."
+  },
+  "28892f8871e30a9d410b86bce074b66a": {
+    "timestamp": "2016-03-22T15:26:29.438610",
+    "feedback": "",
+    "summary": "......."
+  },
+  "activity_revision": "1.0.1",
+  "key": "17B99B8A000000",
+  "last_commit": "28892f8871e30a9d410b86bce074b66a"
+}

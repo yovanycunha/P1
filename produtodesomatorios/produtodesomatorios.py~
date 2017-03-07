@@ -1,0 +1,27 @@
+#coding: utf-8
+# Produto de Somatórios
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+
+numero = raw_input('')
+media = 0
+soma_par = 0
+soma_impar = 0
+
+for i in range(0,len(numero)):
+	if i % 2 == 0:
+		soma_par += int(numero[i])
+	else:
+		soma_impar += int(numero[i])
+
+media = soma_par * soma_impar
+if media < 10:
+	print '0000%d' % media
+elif 100 > media > 10:
+	print '000%d' % media
+elif 1000 > media > 100:
+	print '00%d' % media
+elif 10000 > media > 1000:
+	print '0%d' % media
+else:
+	print '%d' % media

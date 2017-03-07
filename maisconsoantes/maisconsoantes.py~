@@ -1,0 +1,27 @@
+# coding: utf-8
+# Mais Consoantes
+# (C) 2016, Yovany Cunha / UFCG, Programação 1
+
+conso = 0
+vog = 0
+palavra = raw_input('')
+palavras = 1
+
+for i in range(len(palavra)):
+	if palavra[i] == 'A' or palavra[i] == 'a' or palavra[i] == 'E' or palavra[i] == 'e' or palavra[i] == 'I' or palavra[i] == 'i' or palavra[i] == 'O' or palavra[i] == 'o' or palavra[i] == 'U' or palavra[i] == 'u':
+		vog += 1
+	else:
+		conso += 1
+while conso < vog:
+	palavra = raw_input('')
+	palavras +=1
+	conso = 0
+	vog = 0
+
+	for i in range(len(palavra)):
+		if palavra[i] == 'A' or palavra[i] == 'a' or palavra[i] == 'E' or palavra[i] == 'e' or palavra[i] == 'I' or palavra[i] == 'i' or palavra[i] == 'O' or palavra[i] == 'o' or palavra[i] == 'U' or palavra[i] == 'u':
+			vog += 1
+		else:
+			conso += 1
+
+print palavras

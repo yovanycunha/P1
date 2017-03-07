@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "1\n",
+      "output": "Dever\u00e1 receber em dezembro R$ 25000.00.\n"
+    },
+    {
+      "category": "public",
+      "input": "5\n0\n",
+      "output": "Valor da gratifica\u00e7\u00e3o R$ 200.00.\nDever\u00e1 receber em dezembro R$ 3000.00.\n"
+    },
+    {
+      "category": "public",
+      "input": "4\n10\n",
+      "output": "Valor da gratifica\u00e7\u00e3o R$ 225.00.\nDever\u00e1 receber em dezembro R$ 5225.00.\n"
+    }
+  ],
+  "activity_revision": "1.0.0",
+  "5244edb59366147ce10bc2d226a75350": {
+    "timestamp": "2016-03-01T18:45:07.730120",
+    "feedback": "",
+    "summary": "........"
+  },
+  "key": "1272688A000000",
+  "last_commit": "5244edb59366147ce10bc2d226a75350"
+}

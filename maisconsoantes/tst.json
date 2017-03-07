@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "mouse\ncasa\nexemplo\n",
+      "output": "3\n"
+    }
+  ],
+  "activity_revision": "1.0.0",
+  "47319811fcaba3db0d0ca51da1b66138": {
+    "timestamp": "2016-03-29T13:26:47.722990",
+    "feedback": "",
+    "summary": "....."
+  },
+  "key": "15F7A986000000",
+  "last_commit": "47319811fcaba3db0d0ca51da1b66138"
+}

@@ -1,0 +1,24 @@
+{
+  "fbcc00de4dd5d4a42a6a3dc870009d15": {
+    "timestamp": "2016-03-16T13:54:44.247500",
+    "feedback": "",
+    "summary": "..?"
+  },
+  "tests": [
+    {
+      "category": "public",
+      "files": [
+        "public_tests.py"
+      ],
+      "type": "script",
+      "script": "python public_tests.py"
+    }
+  ],
+  "filename": "somaediminui.py",
+  "tst_files": [
+    "public_tests.py"
+  ],
+  "activity_revision": "4.0.0",
+  "key": "11BED18A000000",
+  "last_commit": "fbcc00de4dd5d4a42a6a3dc870009d15"
+}

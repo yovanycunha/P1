@@ -1,0 +1,11 @@
+#coding: utf-8
+# Primeira Vogal
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+
+
+placa = raw_input('').split(" ")
+
+
+print placa
+

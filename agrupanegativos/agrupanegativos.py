@@ -1,0 +1,17 @@
+#coding: utf-8
+# Agrupa Negativos
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+def agrupa_negativos(numeros):
+	nao_neg = []
+	neg = []
+	for i in numeros:
+		if i >= 0:
+			nao_neg.append(i)
+		else:
+			neg.append(i)
+	agrupados = dict([('nao-negativos',nao_neg),('negativos',neg)])
+	return agrupados
+
+assert agrupa_negativos([10, -2, -7, 8]) == {"nao-negativos":[10, 8], "negativos":[-2,-7]}
+assert agrupa_negativos([-1, -5]) == {"nao-negativos":[ ], "negativos":[-1, -5]}

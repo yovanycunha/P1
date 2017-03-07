@@ -1,0 +1,11 @@
+#coding: utf-8
+# Classifica Letra
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+palavra = raw_input('')
+
+for i in range(len(palavra)):
+	if palavra[i] is not 'AEIOUaeiou':
+		print'<%s> nao' % palavra[i]
+	else:
+		print'<%s> sim' % palavra[i]

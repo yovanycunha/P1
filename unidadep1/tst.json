@@ -1,0 +1,37 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "1.5\n1\n",
+      "output": "1.5. Ainda n\u00e3o aprovado.\n"
+    },
+    {
+      "category": "public",
+      "input": "10\n2\n6.0\n",
+      "output": "8.4. Aprovado.\n"
+    },
+    {
+      "category": "public",
+      "input": "6.0\n2\n5.0\n",
+      "output": "5.6. Ainda n\u00e3o aprovado.\n"
+    }
+  ],
+  "0915cecd94c556350d216b91890f2eca": {
+    "timestamp": "2016-03-01T16:04:46.771060",
+    "feedback": "",
+    "summary": "FFFFFFFF"
+  },
+  "b32b00397a31d5971b3566f218895662": {
+    "timestamp": "2016-03-01T16:08:12.293320",
+    "feedback": "",
+    "summary": "FFFFFFFF"
+  },
+  "c610f266e30d346c47ba8b0d0360e569": {
+    "timestamp": "2016-03-01T16:00:50.986820",
+    "feedback": "",
+    "summary": "FFFFFFFF"
+  },
+  "activity_revision": "1.0.2",
+  "key": "13EB3EFA000000",
+  "last_commit": "b32b00397a31d5971b3566f218895662"
+}

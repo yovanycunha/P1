@@ -1,0 +1,32 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "Python\n",
+      "output": "Pyth0n (1 troca(s))\n"
+    },
+    {
+      "category": "public",
+      "input": "ZENIT\n",
+      "output": "Z3N1T (2 troca(s))\n"
+    },
+    {
+      "category": "public",
+      "input": "Abacateiro\n",
+      "output": "Ab4c4t31r0 (5 troca(s))\n"
+    }
+  ],
+  "a250cbb7099bc808d06d03ceb7f7674c": {
+    "timestamp": "2016-03-08T19:03:09.846860",
+    "feedback": "",
+    "summary": "FFFFFFFF"
+  },
+  "activity_revision": "1.1.0",
+  "key": "15E3AA8A000000",
+  "last_commit": "4a456856874a4f141b17ef43e9eec435",
+  "4a456856874a4f141b17ef43e9eec435": {
+    "timestamp": "2016-03-08T19:05:05.039320",
+    "feedback": "",
+    "summary": "........"
+  }
+}

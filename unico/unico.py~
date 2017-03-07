@@ -1,0 +1,16 @@
+# coding: utf-8
+# Único
+# (C) 2016, Yovany Cunha / UFCG, Programação 1
+
+def unico(palavra):
+	nova = ''
+	c = palavra[0]
+	j = 1
+	while j < len(palavra):
+		if c != palavra[j]:
+			nova += palavra[j]
+			j += 1
+	return nova
+
+palavra = raw_input('')
+print unico(palavra)

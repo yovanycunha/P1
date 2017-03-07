@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "bola\n1234\n",
+      "output": "bbbbboooolllaa\n"
+    }
+  ],
+  "activity_revision": "1.1.1",
+  "key": "175C5D4A000000"
+}

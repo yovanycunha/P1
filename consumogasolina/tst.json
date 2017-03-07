@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "40.0\n20.0\n100.0\n10.0\n",
+      "output": "O consumo total foi de 6.0 km/l.\n"
+    }
+  ],
+  "activity_revision": "1.1.8",
+  "c66af650d7153f3c8cb3b7eb5f75b519": {
+    "timestamp": "2016-03-01T14:01:50.407450",
+    "feedback": "",
+    "summary": "...."
+  },
+  "key": "1732C30A000000",
+  "last_commit": "c66af650d7153f3c8cb3b7eb5f75b519"
+}

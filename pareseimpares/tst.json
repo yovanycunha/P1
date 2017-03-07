@@ -1,0 +1,17 @@
+{
+  "1c3f7c41eab15381ac861d36e28ac630": {
+    "timestamp": "2016-03-07T18:57:36.729500",
+    "feedback": "",
+    "summary": "...."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "5\n4\n3\n6\n8\n11\n",
+      "output": "pares: 3\n\u00edmpares: 2\nm\u00e9dia pares: 6.0\nm\u00e9dia \u00edmpares: 7.0\n"
+    }
+  ],
+  "activity_revision": "1.1.0",
+  "key": "124C831A000000",
+  "last_commit": "1c3f7c41eab15381ac861d36e28ac630"
+}

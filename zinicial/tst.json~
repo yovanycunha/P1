@@ -1,0 +1,32 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "zumbi Zeca Recife\n",
+      "output": "2\n"
+    },
+    {
+      "category": "public",
+      "input": "livro cd Software\n",
+      "output": "0\n"
+    }
+  ],
+  "73fcbd90e3310fb1a637d58bfb0b18e9": {
+    "timestamp": "2016-04-05T16:33:49.956230",
+    "feedback": "",
+    "summary": "FFFFFFFF"
+  },
+  "03d615fb70ae052da963dc0bcf3efce6": {
+    "timestamp": "2016-04-05T16:35:50.905820",
+    "feedback": "",
+    "summary": "FFFFFFFF"
+  },
+  "activity_revision": "1.0.0",
+  "key": "10179206000000",
+  "last_commit": "413d5642791d3292076c5c4a9e7f4822",
+  "413d5642791d3292076c5c4a9e7f4822": {
+    "timestamp": "2016-04-05T16:59:53.944750",
+    "feedback": "",
+    "summary": "........"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "cf1d928b1026f73e1ca335b3dbe5ee8f": {
+    "timestamp": "2016-03-03T15:37:58.223280",
+    "feedback": "",
+    "summary": "........"
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "10\n1\n",
+      "output": "SIM\n"
+    },
+    {
+      "category": "public",
+      "input": "3\n6\n",
+      "output": "NAO\n"
+    }
+  ],
+  "activity_revision": "1.0.1",
+  "key": "14FAA3BA000000",
+  "last_commit": "cf1d928b1026f73e1ca335b3dbe5ee8f"
+}

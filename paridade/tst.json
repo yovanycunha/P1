@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "101\n100\n",
+      "output": "ERRO\n"
+    },
+    {
+      "category": "public",
+      "input": "11011\n111010\n00\n11\n10\n",
+      "output": "ERRO\n"
+    }
+  ],
+  "activity_revision": "1.0.0",
+  "ce54e9f12668f60502da561595460d29": {
+    "timestamp": "2016-03-14T16:40:27.850970",
+    "feedback": "",
+    "summary": "...."
+  },
+  "key": "102A8F6A000000",
+  "last_commit": "ce54e9f12668f60502da561595460d29"
+}

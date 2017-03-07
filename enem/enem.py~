@@ -1,0 +1,26 @@
+#coding: utf-8
+# ENEM
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+entrada = raw_input('')
+cont = 0
+nomes = []
+notas = []
+
+while True:
+	if entrada == 'fim': break
+	nome,nota = entrada.split()
+	nota = int(nota)
+	nomes.append(nome)
+	nota.append(nota)
+	entrada = raw_input('')
+
+corte = int(raw_input(''))
+
+for i in range(len(notas)):
+	if notas[i] >= corte:
+		print '%s, %d' % (nomes[i],notas[i])
+		cont += 1
+
+if cont == 0:
+	print 'Nenhum candidato aprovado.'

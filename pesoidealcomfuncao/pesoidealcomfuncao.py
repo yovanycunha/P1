@@ -1,0 +1,26 @@
+# coding: utf-8
+# Peso Ideal com Função
+# (C) 2016, Yovany Cunha / UFCG, Programação 1
+
+def calculaPeso(sexo,altura):
+	peso = 0.0
+	if sexo == 'm' or sexo == 'M':
+		peso =  (72.7 * altura) - 58
+	else:
+		peso = (62.1 * altura) - 44.7
+
+	return peso
+
+
+if __name__=='__main__':
+	while True:
+		entrada = raw_input('')
+		if entrada == '**': break
+		sexo,altura = entrada.split()
+		altura = float(altura)
+		#print '****'
+		if sexo == 'm' or sexo == 'M':
+			print 'Homem: peso ideal é %.1f' % calculaPeso(sexo,altura)
+		else:
+			print 'Mulher: peso ideal é %.1f' % calculaPeso(sexo,altura)
+

@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "25638\n",
+      "output": "verdadeiro: 5 algarismos.\n"
+    }
+  ],
+  "5c2c65d9ef92a48fb25a20583e22d72c": {
+    "timestamp": "2016-04-07T15:52:05.630600",
+    "feedback": "",
+    "summary": ".."
+  },
+  "activity_revision": "1.0.0",
+  "key": "139C8BC6000000",
+  "last_commit": "5c2c65d9ef92a48fb25a20583e22d72c"
+}

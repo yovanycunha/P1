@@ -1,0 +1,31 @@
+#coding: utf-8
+# Remove Consecutivas
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+def remove_consecutivas(palavras):
+	for i in range(len(palavras)-1,-1,-1):
+		for l in range(1,len(palavras)-1):
+			if palavras[i][l].lower() == palavras[i][(l-1)].lower():
+				palavras.pop(i)
+
+#lista1 = ['arara', 'tv',   'bacia']
+#assert remove_consecutivas(lista1) == None
+#assert lista1 == ['arara', 'tv',  'bacia']
+
+#lista1 = ['arara', 'arroba',   'bacia']
+#assert remove_consecutivas(lista1) == None
+#assert lista1 == ['arara', 'bacia']
+
+#lista1 = ['', 'arroba',   'bacia']
+#assert remove_consecutivas(lista1) == None
+#assert lista1 == ['', 'bacia']
+
+#lista1 = ['', 'arroba',   'bacia']
+#assert remove_consecutivas(lista1) == None
+#assert lista1 == ['', 'bacia']
+
+lista1 = ['bB','ARroba']
+remove_consecutivas(lista1)# == None
+print lista1# == ['', 'bacia']
+
+

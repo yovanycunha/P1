@@ -1,0 +1,17 @@
+{
+  "e06b45347746f4c502ac02cf4754d1e1": {
+    "timestamp": "2016-03-22T14:07:30.973250",
+    "feedback": "",
+    "summary": "..."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "Carlos 123\nPedro 111\nJulio 992\nMaria 120\nfim\n120\n",
+      "output": "Carlos, 123\nJulio, 992\nMaria, 120\n"
+    }
+  ],
+  "activity_revision": "1.0.2",
+  "key": "11E53CBA000000",
+  "last_commit": "e06b45347746f4c502ac02cf4754d1e1"
+}

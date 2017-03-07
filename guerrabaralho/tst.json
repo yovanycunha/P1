@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "12 1\n11 11\n2 3\n3 4\n4 5\n13 1\n0 0\n",
+      "output": "Jogador 1: 2, Jogador 2: 3, Empates: 1\n"
+    }
+  ],
+  "62f7855229edc9886d4c0f501e91f8c9": {
+    "timestamp": "2016-03-22T14:24:03.729500",
+    "feedback": "",
+    "summary": "......"
+  },
+  "activity_revision": "1.0.0",
+  "key": "149578DA000000",
+  "last_commit": "62f7855229edc9886d4c0f501e91f8c9"
+}

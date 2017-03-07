@@ -1,0 +1,27 @@
+{
+  "b4bcff68ccfa903f48893570b948447b": {
+    "timestamp": "2016-03-22T18:49:08.123400",
+    "feedback": "",
+    "summary": ".z..z.."
+  },
+  "e6e00192c42185422c6057915a73138c": {
+    "timestamp": "2016-03-22T18:50:26.471040",
+    "feedback": "",
+    "summary": "......."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "18\n42\n",
+      "output": "6\n"
+    }
+  ],
+  "7cf33fb99760d6a99c873f60b192d6f5": {
+    "timestamp": "2016-03-22T18:47:18.814930",
+    "feedback": "",
+    "summary": "..F...F"
+  },
+  "activity_revision": "1.0.0",
+  "key": "143706C6000000",
+  "last_commit": "e6e00192c42185422c6057915a73138c"
+}

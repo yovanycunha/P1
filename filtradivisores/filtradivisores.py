@@ -1,0 +1,21 @@
+# coding: utf-8
+# Filtra Divisores
+# (C) 2016, Yovany Cunha / UFCG, Programação 1
+
+def filtra_divisores(numbers):
+	for i in range(len(numbers)-1,-1,-1):
+		if numbers[i] % soma_algarismos(numbers[i]) != 0:
+			numbers.pop(i)
+
+def soma_algarismos(numero):
+	soma = 0
+	while numero > 10:
+		soma += numero % 10
+		numero /= 10
+	soma += numero
+	return soma
+
+
+lista1 = [333, 121, 81]
+assert filtra_divisores(lista1) == None
+assert lista1# == [333,81]

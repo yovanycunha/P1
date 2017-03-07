@@ -1,0 +1,26 @@
+#coding: utf-8
+# Média Final
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+
+num1 = int(raw_input())
+num2 = int(raw_input())
+num3 = int(raw_input())
+soma = 0
+if num1 == 13:
+	print 0
+elif num2 == 13:
+	soma += num1
+	print soma
+elif num3 == 13:
+	soma = num1 +  num2
+	if soma == 13:
+		print 0
+	else:
+		print soma
+else:
+	soma += num1 + num2 + num3
+	if soma == 13:
+		print 0
+	else:
+		print soma

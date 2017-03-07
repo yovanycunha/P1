@@ -1,0 +1,36 @@
+#coding: utf-8
+# Organiza por Média
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+def organiza_por_media(sequencia):
+	media = 0.0
+	soma = 0.0
+	menores = []
+	iguais = []
+	maiores = []
+	if len(sequencia) < 1:
+		return menores + maiores
+	for i in range(len(sequencia)):
+		soma += sequencia[i]
+	media = soma / float(len(sequencia))
+
+	for j in range(len(sequencia)):
+		if sequencia[j] <= media:
+			menores.append(sequencia[j])
+		#elif sequencia[j] == media:
+		#	iguais.append(sequencia[j])
+		else:
+			maiores.append(sequencia[j])
+	print media
+	print menores
+	print maiores
+	return menores + maiores
+
+#p1 = [1,2,4,1,3,4,56,7,7,4,3,67]
+#assert organiza_por_media(p1) == [1,2,4,1,3,4,7,7,4,3,56,67]
+
+#p1 = []
+#assert organiza_por_media(p1) == [1,2,4,1,3,4,7,7,4,3,56,67]
+
+p1 = []
+print organiza_por_media(p1)

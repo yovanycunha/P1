@@ -1,0 +1,34 @@
+#coding: utf-8
+# BCD
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+lista = []
+
+while True:
+	dezena = ''
+	unidade = ''
+	seq = raw_input('')
+	if seq == 'fim': break
+	for i in range(len(seq)/2):
+		dezena += seq[i]
+	for i in range(len(seq)/2,len(seq)):
+		unidade += seq[i]
+	if dezena in ['0000','0001','0010','0011','0100','0101','0110','0111','1000','1001'] or unidade in ['0000','0001','0010','0011','0100','0101','0110','0111','1000','1001']:
+		dezena = int(dezena,2)
+		dezena = str(dezena)
+		unidade = int(unidade,2)
+		unidade = str(unidade)
+	#print dezena
+	#print unidade
+	numero = dezena + unidade
+	if len(seq) != 8:
+		lista.append('Tente novamente.')
+	elif dezena not in ['0','1','2','3','4','5','6','7','8','9'] or unidade not in ['0','1','2','3','4','5','6','7','8','9']:
+		lista.append('BCD inválido.')
+	else:
+		numero = str(numero)
+		lista.append(numero)
+	#print numero
+
+for i in range(len(lista)):
+	print lista[i]

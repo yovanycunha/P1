@@ -1,0 +1,17 @@
+{
+  "3f2c6c553034080cd7232233b8d2f72e": {
+    "timestamp": "2016-03-10T17:07:30.483220",
+    "feedback": "",
+    "summary": "....."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "12\n",
+      "output": "1\n2\n3\n4\n6\n"
+    }
+  ],
+  "activity_revision": "1.0.1",
+  "key": "10ADBD3A000000",
+  "last_commit": "3f2c6c553034080cd7232233b8d2f72e"
+}

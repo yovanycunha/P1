@@ -1,0 +1,18 @@
+#coding: utf-8
+# Série: Octal/Decimal
+# (C) 2016, Yovany Cunha/UFCG, Programaçao I
+
+import math
+
+numero = raw_input('')
+decimal = 0
+octal = 0
+soma = 0
+	
+for i in range(0,len(numero)):
+	octal = int(numero[i])
+	for j in range(len(numero)-1,-1,-1):
+		decimal = octal * pow(8,j)
+		soma += decimal
+	print '%d * 8^%d = %d' % (decimal,j,octal)
+print '%s(8) = %d(10)' % (numero,soma)

@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "MXV1234 MOW4321 MMV8062\n",
+      "output": "MXV1234: fevereiro\nMOW4321: janeiro\nMMV8062: janeiro\n"
+    }
+  ],
+  "activity_revision": "1.0.0",
+  "e56e925c3485590f1c3f36088e862c6e": {
+    "timestamp": "2016-03-08T14:19:17.289410",
+    "feedback": "",
+    "summary": "........."
+  },
+  "key": "125C5D4A000000",
+  "last_commit": "e56e925c3485590f1c3f36088e862c6e"
+}

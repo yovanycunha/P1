@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "85, 45\n35.0, 40.0\n-20, 15\n215, 181\n",
+      "output": "96.18\n53.15\n25.00\n--\nnum disparos: 3\ndistancia media: 58.11\n"
+    }
+  ],
+  "64fe9241ef52497df837736846dfed4a": {
+    "timestamp": "2016-03-23T18:51:19.370470",
+    "feedback": "",
+    "summary": "..v.F"
+  },
+  "activity_revision": "1.0.1",
+  "key": "146728DA000000",
+  "last_commit": "64fe9241ef52497df837736846dfed4a"
+}

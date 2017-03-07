@@ -1,0 +1,23 @@
+# coding: utf-8
+# Tem Vogais Adjacentes
+# (C) 2016, Yovany Cunha / UFCG, Programação 1
+
+
+def temvogaisadjacentes(palavra):
+	i = 0
+	while True:#(vogal1 == vogal2 == False) or i == len(palavra) - 1:
+		vogal1 = False
+		vogal2 = False
+		if (vogal1 == vogal2 == True) or i == (len(palavra) - 1): break
+		if palavra[i] == 'A' or palavra[i] == 'a' or palavra[i] == 'E' or palavra[i] == 'e' or palavra[i] == 'I' or palavra[i] == 'i' or palavra[i] == 'O' or palavra[i] == 'o' or palavra[i] == 'U' or palavra[i] == 'u':
+			vogal1 = True
+			if palavra[i + 1] == 'A' or palavra[i + 1] == 'a' or palavra[i + 1] == 'E' or palavra[i + 1] == 'e' or palavra[i + 1] == 'I' or palavra[i + 1] == 'i' or palavra[i + 1] == 'O' or palavra[i + 1] == 'o' or palavra[i + 1] == 'U' or palavra[i + 1] == 'u':
+				vogal2 = True
+				return 'sim'
+		i += 1
+	return 'nao'
+
+
+if __name__ == '__main__':
+	palavra = raw_input('')
+	print temvogaisadjacentes(palavra)

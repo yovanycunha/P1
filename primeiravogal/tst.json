@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "problema\n",
+      "output": "o\n"
+    }
+  ],
+  "activity_revision": "1.1.0",
+  "key": "16171BBA000000"
+}

@@ -1,0 +1,27 @@
+{
+  "2666311df881c10b8c41573fad3ca77c": {
+    "timestamp": "2016-03-01T18:58:14.740960",
+    "feedback": "",
+    "summary": ".......F.."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "30\n",
+      "output": "Quadrante 1\n"
+    },
+    {
+      "category": "public",
+      "input": "270\n",
+      "output": "Sobre eixos\n"
+    },
+    {
+      "category": "public",
+      "input": "400\n",
+      "output": "Quadrante 1\n"
+    }
+  ],
+  "activity_revision": "1.0.0",
+  "key": "122815BA000000",
+  "last_commit": "2666311df881c10b8c41573fad3ca77c"
+}

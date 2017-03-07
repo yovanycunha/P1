@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "gato\nsapato\n",
+      "output": "Letras coincidentes\n'a' na posi\u00e7\u00e3o 2\nTotal de letras coincidentes: 1 (10%)\n"
+    }
+  ],
+  "activity_revision": "1.1.0",
+  "key": "153A09FA000000"
+}
